@@ -1,5 +1,5 @@
 public class UserService {
-    private UserRepository userRepository;
+    final UserRepository userRepository;
 
     public UserService() {
         this.userRepository = new UserRepository(); // Instância criada diretamente
