@@ -1,3 +1,6 @@
+package edu.ramon.service;
+import edu.ramon.repository.UserRepository;
+
 public class UserService {
     final UserRepository userRepository;
 
